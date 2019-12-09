@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400,500,700,800|Ropa+Sans&display=swap');
 /*
 	Eventually by HTML5 UP
 	html5up.net | @ajlkn
@@ -21,7 +22,83 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-transform: uppercase;;
+}
+
+header h1 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 30px;
+}
+
+header h2 {
+  letter-spacing: 15px;
+  font-weight: 200;
+  font-size: 1em;
+}
+
+header h2.mobile {
+  display: none;
+}
+
+header h3 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+  letter-spacing: 30px;
+}
+
+header h1,
+header h2,
+header h3 {
+  text-align: center;
+}
+
+header p {
+  letter-spacing: 10px;
+  font-weight: 200;
+}
+
+footer {
+  width: 100%;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer .copyright li {
+  font-size: 0.7em;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 2em 20px 2em 20px !important;
+  }
+
+
+  header h2:not(.mobile) {
+    display: none;
+  }
+
+  header h2.mobile {
+    display: block;
+    font-size: 0.8em;
+  }
+
+  header h3 {
+    font-size: 1.8em;
+  }
+
+  header p {
+    margin: 0 40px 0 0 !important;
+    font-size: 0.6em !important;
+  }
+}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -69,7 +146,9 @@ body {
 
 @media screen and (max-width: 480px) {
   html, body {
-    min-width: 320px; } }
+    min-width: 320px;
+  }
+}
 
 html {
   box-sizing: border-box; }
@@ -261,7 +340,7 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
-    color: #1cb495 !important;
+    color: white !important;
     text-decoration: none; }
 
 strong, b {
@@ -782,8 +861,10 @@ button,
   margin: 0 0 0.55em 0; }
 
 #header p {
-  font-size: 1.35em;
-  line-height: 1.65em; }
+  font-size: 0.8em;
+  line-height: 1.65em;
+  color: white;
+}
 
 #header a {
   color: inherit; }
@@ -840,11 +921,10 @@ button,
   -webkit-transition: opacity 0.5s ease-in-out;
   -ms-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  bottom: 4em;
   color: rgba(255, 255, 255, 0.5);
-  left: 4em;
   opacity: 0.5;
-  position: absolute; }
+  margin-top: 1em;
+}
   #footer .icons {
     margin: 0 0 0.5em 0; }
   #footer .copyright {
@@ -867,21 +947,4 @@ button,
     opacity: 1; }
   #footer > :last-child {
     margin-bottom: 0; }
-  @media screen and (max-width: 1680px) {
-    #footer {
-      bottom: 3.5em;
-      left: 3.5em; } }
-  @media screen and (max-width: 736px) {
-    #footer {
-      bottom: 2em;
-      left: 2em; } }
-  @media screen and (max-width: 360px) {
-    #footer {
-      bottom: 1.25em;
-      left: 1.25em; } }
-  @media screen and (max-height: 640px) {
-    #footer {
-      bottom: auto;
-      left: auto;
-      margin: 1em 0 0 0;
-      position: relative; } }
+
