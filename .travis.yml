@@ -5,12 +5,8 @@ node_js:
 dist: trusty
 sudo: true
 
-branches:
-  only:
-    - master
-
 script:
   - echo "No tests at this moment :("
 
 after_success:
-  - ./.travis/scripts/deploy.sh
+  - test $TRAVIS_BRANCH = "master" && ./.travis/scripts/deploy.sh
