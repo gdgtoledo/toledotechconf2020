@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - '10.0'
 
-dist: bionic
+dist: xenial
 
 script:
   - echo "No tests at this moment :("
