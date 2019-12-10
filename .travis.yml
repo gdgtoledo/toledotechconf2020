@@ -9,5 +9,8 @@ branches:
   only:
     - master
 
+script:
+  - echo "No tests at this moment :("
+
 after_success:
   - ./.travis/scripts/deploy.sh
