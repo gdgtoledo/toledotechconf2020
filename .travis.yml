@@ -1,0 +1,6 @@
+branches:
+  only:
+    - master
+
+after_success:
+  - ./.travis/scripts/deploy.sh
