@@ -23,6 +23,7 @@ function install_dependencies() {
 }
 
 function install_linux() {
+	sudo apt-get -qq update
 	sudo apt-get -qq -y install git-ftp
 }
 
