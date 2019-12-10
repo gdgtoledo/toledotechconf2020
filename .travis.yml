@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - '10.0'
+
+dist: bionic
+
+script:
+  - echo "No tests at this moment :("
+
+deploy:
+  provider: script
+  script: ./.travis/scripts/deploy.sh
+  on:
+    branch: master
+ 
