@@ -22,7 +22,7 @@ function install_dependencies() {
 }
 
 function install_linux() {
-	apt-get -qq -y install git-ftp
+	sudo apt-get -qq -y install git-ftp
 }
 
 function install_mac() {
