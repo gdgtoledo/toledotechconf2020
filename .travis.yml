@@ -7,5 +7,9 @@ dist: bionic
 script:
   - echo "No tests at this moment :("
 
-after_success:
-  - test $TRAVIS_BRANCH = "master" && ./.travis/scripts/deploy.sh
+deploy:
+  provider: script
+  script: ./.travis/scripts/deploy.sh
+  on:
+    branch: master
+ 
