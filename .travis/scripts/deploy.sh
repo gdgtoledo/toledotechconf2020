@@ -2,7 +2,7 @@
 
 function deploy() {
 	git config git-ftp.deployedsha1file git-ftp.log
-	git ftp init --user "$FTP_USERNAME" --passwd "$FTP_PASSWORD" "ftp://$FTP_SERVER/httpdocs"
+	git ftp init --user "$FTP_USERNAME" --passwd "$FTP_PASSWORD" "ftp://$FTP_SERVER/httpdocs" || true
 	git ftp push --user "$FTP_USERNAME" --passwd "$FTP_PASSWORD" "ftp://$FTP_SERVER/httpdocs"
 }
 
