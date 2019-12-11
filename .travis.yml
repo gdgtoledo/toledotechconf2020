@@ -2,7 +2,11 @@ language: node_js
 node_js:
   - '10.0'
 
-dist: xenial
+dist: bionic
+
+before_script:
+  - sudo apt-get update
+  - sudo apt-get -y install git-ftp
 
 script:
   - echo "No tests at this moment :("
