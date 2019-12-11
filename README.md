@@ -1,22 +1,15 @@
 ![](./README/logo.png)
-#  REMOTE 2020
-### ./TOLEDO/TECH/CONFERENCE
 
-#### ¿QUÉ ES TOLEDO TECH CONFERENCE ?
-TOLEDO  TECH  CONFERENCE  ES  UN  EVENTO
-QUE NACE CON VOCACIÓN DE GENERAR ANUALMENTE UN PUNTO DE ENCUENTRO DE DESARROLLADORES DE SOFTWARE EN TOLEDO Y QUE EN CA DA EDICIÓN GIRARÁ EN TORNO A UN ASPECTO CONCRETO DE ESTA PROFESIÓN, YA SEA TÉCNICO, MÉTODO LÓGICO O PROPIO DEL  EJERCICIO  PROFESIONAL, SOBRE EL QUE SE DE BATIRÁ CON EL OBJETO DE APRENDER, COMPARTIR Y DISFRUTAR.
-
-#### NUESTRO SITIO WEB
 ![](https://github.com/gdgtoledo/toledotechconf2020/workflows/FTP%20Deployment/badge.svg)
-VISITA NUESTRO [SITIO WEB ](http://www.toledotechconf.com) PARA MAS INFORMACIÓN
 
-#### DOSSIER
-ACCEDE A NUESTRO [DOSSIER](https://drive.google.com/file/d/1ZMCcftjqtheQDy34hLlk8DKScKLKhR0N/view?usp=sharing).
+#### ¿Qué es toledo tech conference ?
+[Toledo  tech  conference](http://www.toledotechconf.com) es  un  evento que nace con vocación de generar anualmente un punto de encuentro de desarrolladores de software en toledo y que en ca da edición girará en torno a un aspecto concreto de esta profesión, ya sea técnico, método lógico o propio del  ejercicio  profesional, sobre el que se de batirá con el objeto de aprender, compartir y disfrutar.
 
+#### Dossier
+Accede a nuestro [dossier](https://drive.google.com/file/d/1ZMCcftjqtheQDy34hLlk8DKScKLKhR0N/view?usp=sharing).
 
-#### CONTRIBUYE
-PUEDES VER COMO CONTRIBUIR LEYENDO NUESTRO [MANUAL](./CONTRIBUTING.md).
-# Toledo Tech Conf 2020
+#### Contribuye
+Puedes ver como contribuir leyendo nuestro [manual](./CONTRIBUTING.md).
 
-#### CÓDIGO DE CONDUCTA
-PUEDES VER NUESTRO [CÓDIGO DE CONDUCTA](./CODE_OF_CONDUCT.md).
+#### Código de conducta
+Puedes ver nuestro [código de conducta](./CODE_OF_CONDUCT.md).
