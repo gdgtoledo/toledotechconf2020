@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - '10.0'
 
-dist: xenial
+dist: bionic
 
 before_script:
   - sudo apt-get update
